@@ -20,5 +20,6 @@ app.MapPut("/message", async (HttpRequest request) =>
     return $"Updated to: {message}";
 });
 
+// test
 
 app.Run("http://*:80");
